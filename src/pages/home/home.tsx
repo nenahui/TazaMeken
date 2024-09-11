@@ -1,10 +1,10 @@
-import Sponsors from '@/entities/sponsors/ui/sponsors';
+import { Header } from '@/widgets/header';
 import React from 'react';
 
 export const Home: React.FC = () => {
   return (
     <>
-      <Sponsors />
+      <Header />
     </>
   );
 };
