@@ -1,0 +1,7 @@
+.navList {
+	@apply flex gap-12;
+}
+
+.navItem {
+	@apply hover:text-primary-color text-black !important;
+}
