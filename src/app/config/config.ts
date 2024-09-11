@@ -1,7 +1,8 @@
 export const config = {
+  primaryColor: '#008472',
   theme: {
     token: {
-      colorPrimary: '#13c2c2',
+      colorPrimary: '#008472',
     },
   },
 };
