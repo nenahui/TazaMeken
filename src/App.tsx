@@ -1,5 +1,6 @@
-import { Button, ConfigProvider } from 'antd';
+import { ConfigProvider } from 'antd';
 import React from 'react';
+import { Routes } from './app/routes/routes';
 
 export const App: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ export const App: React.FC = () => {
         },
       }}
     >
-      <Button type={'primary'}>Hello</Button>
+      <Routes />
     </ConfigProvider>
   );
 };
