@@ -1,5 +1,10 @@
+import { Sponsers } from '@/entities/sponsers';
 import React from 'react';
 
 export const Home: React.FC = () => {
-  return <>Home page</>;
+  return (
+    <>
+      <Sponsers />
+    </>
+  );
 };
