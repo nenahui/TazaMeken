@@ -1,6 +1,6 @@
-import React from 'react';
-import { Route, Routes as RoutesReactRouter } from 'react-router-dom';
-import { Home } from '../../pages/home/home';
+import { Home } from '@/pages/home/home';
+import { Route } from 'react-router-dom';
+import { Routes as RoutesReactRouter } from 'react-router-dom';
 
 export const Routes: React.FC = () => {
   return (
