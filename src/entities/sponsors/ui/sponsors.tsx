@@ -5,7 +5,7 @@ const { Text } = Typography;
 
 const Sponsors = () => {
   return (
-    <Flex className='container mx-20 size-96' gap={20} vertical>
+    <Flex className='container size-96' gap={20} vertical>
       <Flex className='container mx-auto' vertical>
         <Text className='text-2xl'>Количество спонсоров</Text>
         <Text className='text-primary-color font-medium text-7xl'>40+</Text>
